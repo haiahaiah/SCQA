@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d12f3d0-0cf9-484c-86f7-6e518a996390" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datasets/boolq/boolq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/boolq/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/contrast-boolq/contrast-boolq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/contrast-boolq/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/natural_questions/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/np-boolq/dataset_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/np-boolq/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/np-boolq/np-boolq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/race/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/race/race.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/race_merge/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/race_merge/race_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/reclor/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/reclor/reclor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/squad/dataset_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/squad/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/squad_v2/dataset_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/squad_v2/dataset_infos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/squad_v2/squad_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eval_mc_qa_align_uniform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eval_yn_qa_align_uniform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help/check_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help/loss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/accuracy/accuracy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/squad/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/squad/squad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/squad_v2/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/squad_v2/squad_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/cl_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/stable_cl_mcqa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/stable_cl_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/stable_cl_ynqa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/stable_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_processing/compare_predict_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_mc_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_reclor_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_yn_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/boolq_adv_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/boolq_eval_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/boolq_run_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/boolq_run_qa_with_mix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/boolq_run_scqa_with_mix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/np_boolq_adv_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/np_boolq_run_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/nq_run_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race/37_run_albert_large.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race/run_albert_large.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_adv_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_analysis.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_eval_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_run_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_run_qa_albert_base.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_run_qa_from_checkpt.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/race_run_qa_roberta_base.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/reclor_adv_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/reclor_analysis.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/reclor_run_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/reclor_run_qa_file.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/run_qa_distributed.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_adv_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_run_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_run_qa_with_mix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_run_scqa_with_mix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_v2_adv_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_v2_adv_test_in_prepare_data.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_v2_eval_qa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/squad_v2_run_qa.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_qa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer_qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer_qa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils_qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils_qa.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JupyterTrust" id="7839ef9d-8bb4-46ef-b3fd-816626ebd66e" />
+  <component name="ProjectId" id="23Gwy0oacIIziu5SM0qkOARWnjH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d12f3d0-0cf9-484c-86f7-6e518a996390" name="Default Changelist" comment="" />
+      <created>1641373981822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641373981822</updated>
+      <workItem from="1641373982933" duration="2033000" />
+      <workItem from="1641544953186" duration="496000" />
+      <workItem from="1661667292624" duration="521000" />
+      <workItem from="1661669368591" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="44" key="SettingsEditor" timestamp="1661669420208">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="44" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1661669420208" />
+    <state x="221" y="62" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1661667341619" />
+    <state x="505" y="288" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1661669419286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="505" y="288" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1440.900@0.0.1440.900" timestamp="1661669419286" />
+  </component>
+</project>

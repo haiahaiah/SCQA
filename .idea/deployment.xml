@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="yuhai@162.105.87.216:9122 key" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="216 trans-eg-qa">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/qa/code/trans-eg-question-answering" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yuhai@162.105.87.216:9122 key">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yuhai/workspace/qa/code/trans-eg-question-answering" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

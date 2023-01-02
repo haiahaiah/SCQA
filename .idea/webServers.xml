@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="51d7203d-35ed-4157-8f3d-a421c519700c" name="216 trans-eg-qa">
+        <fileTransfer rootFolder="/home/yuhai/workspace" accessType="SFTP" host="162.105.87.216" port="9122" sshConfigId="f0958551-c5d9-42b1-ac29-17b93190e1c8" sshConfig="yuhai@162.105.87.216:9122 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

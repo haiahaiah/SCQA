@@ -1,0 +1,36 @@
+{
+  "default": {
+    "description": "contrast boolq",
+	"citation": "@inproceedings{clark2019boolq,\n  title =     {BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions},\n  author =    {Clark, Christopher and Lee, Kenton and Chang, Ming-Wei, and Kwiatkowski, Tom and Collins, Michael, and Toutanova, Kristina},\n  booktitle = {NAACL},\n  year =      {2019},\n}\n",
+    "homepage": "",
+    "license": "",
+    "features": {
+      "question": {
+        "dtype": "string",
+        "id": null,
+        "_type": "Value"
+      },
+      "answer": {
+        "dtype": "bool",
+        "id": null,
+        "_type": "Value"
+      },
+      "passage": {
+        "dtype": "string",
+        "id": null,
+        "_type": "Value"
+      }
+    },
+    "post_processed": null,
+    "supervised_keys": null,
+    "builder_name": "contrast-boolq",
+    "config_name": "default",
+    "version": {
+      "version_str": "0.1.0",
+      "description": null,
+      "major": 0,
+      "minor": 1,
+      "patch": 0
+    }
+  }
+}
